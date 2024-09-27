@@ -1,6 +1,9 @@
-# Web Scraping Project: Family Offices and Wealth Management
+# Web Scraping Project: Family Offices and Wealth Management in France
 
-This project contains two web scraping scripts designed to extract information about family offices and wealth management firms in France.
+This project contains web scraping scripts designed to extract information about family offices and wealth management firms from two specific French websites:
+
+1. www.familyoffice-france.fr
+2. www.cabinet-gestion-patrimoine.fr
 
 ## Scripts
 
@@ -80,6 +83,7 @@ The CSV file contains the following columns:
 7. URL
 
 Example row:
-```
-LocalBusiness,Company Name,Company description...,+33 1 23 45 67 89,123 Street Name City Region 12345 France,https://example.com/image.jpg,https://www.company-website.com
-```
+| Type | Name | Description | Telephone | Address | Image | URL |
+|------|------|-------------|-----------|---------|-------|-----|
+| LocalBusiness | Company Name | Company description... | +33 1 23 45 67 89 | 123 Street Name City Region 12345 France | https://example.com/image.jpg | https://www.company-website.com |
+
